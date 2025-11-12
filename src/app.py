@@ -5,9 +5,9 @@ A super simple FastAPI application that allows students to view and sign up
 for extracurricular activities at Mergington High School.
 """
 
-from fastapi import FastAPI, HTTPException
-from fastapi.staticfiles import StaticFiles
-from fastapi.responses import RedirectResponse
+from fastapi import FastAPI, HTTPException # pyright: ignore[reportMissingImports]
+from fastapi.staticfiles import StaticFiles # type: ignore
+from fastapi.responses import RedirectResponse # pyright: ignore[reportMissingImports]
 import os
 from pathlib import Path
 
