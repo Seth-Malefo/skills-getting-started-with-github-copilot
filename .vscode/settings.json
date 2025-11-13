@@ -1,5 +1,5 @@
 {
-    "liveServer.settings.port": 5502,
+    "LiveServer.settings.port": 5502,
     "python.testing.pytestArgs": [
         "src"
     ],
